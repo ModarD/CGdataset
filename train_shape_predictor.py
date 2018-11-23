@@ -72,11 +72,11 @@ options.be_verbose = True
 options.nu = 0.05#0.025#0.05#0.01#0.005#
 options.cascade_depth = 15 
 options.feature_pool_size = 1000#800#
-options.num_test_splits = 20#150#20#100#
+options.num_test_splits = 100#20#150#20#
 options.oversampling_amount = 20#40#80#
 options.num_threads = 16
 
-#options.lambda_param = 0.01#0.005#
+options.lambda_param = 0.01#0.005#
 #options.num_trees_per_cascade_level = 500
 #options.feature_pool_region_padding = 0
 #options.oversampling_translation_jitter = 0  # available in the latest dlib release
