@@ -36,7 +36,7 @@
 import os
 import sys
 import glob
-
+import time
 import dlib
 
 # In this example we are going to train a face detector based on the small
@@ -105,9 +105,13 @@ options.num_threads = 16
 #training_xml_path = "H:/Facial Landmarks/5 slow anim/data_out.xml"
 training_xml_path = "ds/data_out.xml"
 print(training_xml_path)
+
+start = time.time()
+
 dlib.train_shape_predictor(training_xml_path, "myPredictor.dat", options)
 
-
+end = time.time()
+print("exec time : ", format(end - start, '.2f'))
 
 # Now that we have a model we can test it.  dlib.test_shape_predictor()
 # measures the average distance between a face landmark output by the
