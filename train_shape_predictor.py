@@ -107,7 +107,7 @@ training_xml_path = "ds/data_out.xml"
 print(training_xml_path)
 
 start = time.time()
-
+print("start time : ", start)
 dlib.train_shape_predictor(training_xml_path, "myPredictor.dat", options)
 
 end = time.time()
