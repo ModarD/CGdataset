@@ -70,9 +70,9 @@ options.be_verbose = True
 # set the parameters
 #options.tree_depth = 4
 options.nu = 0.05#0.025#0.05#0.01#0.005#
-options.cascade_depth = 15 
+options.cascade_depth = 20#15 
 options.feature_pool_size = 1000#800#
-options.num_test_splits = 100#20#150#20#
+options.num_test_splits = 150#100#20#20#
 options.oversampling_amount = 20#40#80#
 options.num_threads = 16
 
