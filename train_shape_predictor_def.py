@@ -68,7 +68,7 @@ options.be_verbose = True
 #DEFAULT VALUES
 #https://medium.com/datadriveninvestor/training-alternative-dlib-shape-predictor-models-using-python-d1d8f8bd9f5c
 # set the parameters
-options.tree_depth = 4
+options.tree_depth = 5
 options.nu = 0.05#0.025#0.05#0.01#0.005#
 #options.cascade_depth = 15 
 #options.feature_pool_size = 1000#800#
