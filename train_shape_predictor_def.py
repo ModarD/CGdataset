@@ -70,7 +70,7 @@ options.be_verbose = True
 # set the parameters
 options.tree_depth = 4#file size
 options.nu = 0.05#0.025#0.05#0.01#0.005#
-options.cascade_depth = 20 
+options.cascade_depth = 40 
 #options.feature_pool_size = 1000#800#
 #options.num_test_splits = 20#150#20#100#
 #options.oversampling_amount = 40#20#80#
