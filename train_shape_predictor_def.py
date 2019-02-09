@@ -68,10 +68,19 @@ options.be_verbose = True
 #DEFAULT VALUES
 #https://medium.com/datadriveninvestor/training-alternative-dlib-shape-predictor-models-using-python-d1d8f8bd9f5c
 # set the parameters
-#options.tree_depth = 4
-options.nu = 0.05
-options.tree_depth = 2
-options.be_verbose = True
+options.tree_depth = 8
+options.nu = 0.05#0.025#0.05#0.01#0.005#
+#options.cascade_depth = 15 
+#options.feature_pool_size = 1000#800#
+#options.num_test_splits = 20#150#20#100#
+#options.oversampling_amount = 40#20#80#
+#options.num_threads = 16
+
+#options.lambda_param = 0.01#0.005#
+
+#options.num_trees_per_cascade_level = 500
+#options.feature_pool_region_padding = 0
+#options.oversampling_translation_jitter = 0  # available in the latest dlib release
 
 #http://dlib.net/python/index.html#dlib.shape_predictor_training_options
 #http://dlib.net/dlib/image_processing/shape_predictor_trainer_abstract.h.html#shape_predictor_trainer
