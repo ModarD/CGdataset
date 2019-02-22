@@ -105,7 +105,7 @@ options.nu = 0.05#0.025#0.05#0.01#0.005#
 # parts.
 #training_xml_path = "H:/Facial Landmarks/mirror/all.xml"
 #training_xml_path = "H:/Facial Landmarks/5 slow anim/data_out.xml"
-training_xml_path = "ds7/data_out.xml"#"data_out_2to6.xml"
+training_xml_path = "ds7edg/data_out.xml"#"data_out_2to6.xml"
 print(training_xml_path)
 
 start = datetime.datetime.now()
